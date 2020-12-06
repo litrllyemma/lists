@@ -5,7 +5,7 @@
 			"emma"
 		],
 		"description": "Testing out making a rulelist.",
-		"title": "Testing."
+		"title": "Testing.",
 		"update_url": "https://raw.githubusercontent.com/litrllyemma/lists/master/rules.test.json"
 	},
 	"rules": [
