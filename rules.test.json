@@ -21,8 +21,8 @@
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
-						"gymgoer",
-						"purple"
+						"engineer",
+						"pyro"
 					]
 				}
 			}
