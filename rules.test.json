@@ -4,8 +4,8 @@
 		"authors": [
 			"emma"
 		],
-		"description": "This is my test version for the rule-list",
-		"title": "Emma's test ruleset",
+		"description": "Testing out making a rulelist.",
+		"title": "Testing."
 		"update_url": "https://raw.githubusercontent.com/litrllyemma/lists/master/rules.test.json"
 	},
 	"rules": [
@@ -15,14 +15,15 @@
 					"cheater"
 				]
 			},
-			"description": "(testing) fake",
+			"description": "(testing) testing name triggers",
 			"triggers": {
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
 						"engineer",
-						"pyro"
+						"pyro",
+						"emma"
 					]
 				}
 			}
