@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/rules.schema.json",
+	"file_info": {
+		"authors": [
+			"emma"
+		],
+		"description": "This is my test version for the rule-list",
+		"title": "Emma's test ruleset"
+	},
+	"rules": [
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "TESTING",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"Emma"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,15 @@
+
+untrusted_groups.official.json
+settings.json
+sponsors.json
+schema/whitelist.schema.json
+schema/shared.schema.json
+schema/settings.schema.json
+schema/rules.schema.json
+schema/playerlist.schema.json
+rules.official.json
+rules.moeb.json
+rules.link2006.json
+playerlist.official.json
+playerlist.json
+discord_rich_presence.json
