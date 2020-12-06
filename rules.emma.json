@@ -1,0 +1,60 @@
+{
+	"$schema": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/rules.schema.json",
+	"file_info": {
+		"authors": [
+			"emma"
+		],
+		"description": "Testing out making a rulelist.",
+		"title": "Emma's testing list.",
+		"update_url": "https://raw.githubusercontent.com/litrllyemma/lists/master/rules.emma.json"
+	},
+	"rules": [
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "(EMMABD) bot name match detected",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": ""
+					}
+				],
+				"mode": "match_any",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"shoppy.gg/"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"racist"
+				]
+			},
+			"description": "[EMMABD] Racism in chat detected",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": ""
+					}
+				],
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"nigger",
+						"niggers"
+					]
+				},
+				"mode": "match_any"
+			}
+		}
+	]
+}
