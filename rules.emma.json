@@ -27,7 +27,8 @@
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
-						"shoppy.gg/@d3fc0n6"
+						"shoppy.gg/@d3fc0n6",
+						"festive hitman"
 					]
 				}
 			}
